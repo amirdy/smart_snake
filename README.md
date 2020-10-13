@@ -3,7 +3,7 @@
 
 # State
 ### s<sub>t</sub> : 
-The last game frame :
+&nbsp; The last game frame :
 
 ### &phi;(s<sub>t</sub>) :
 &nbsp; 8 features extracted from the frame as below:
