@@ -3,7 +3,8 @@
 
 # State
 ### s<sub>t</sub> : 
-The last game frame 
+The last game frame :
+
 ### &phi;(s<sub>t</sub>) :
 8 features extracted from the frame as below:
 ##### [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]
@@ -25,7 +26,7 @@ The last game frame
 
 # Network
 #### Input Data :
-###### **(Batch_size, 9)**
+###### **(Batch_size, 8)**
 
 #### Layers  : 
 ###### **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** 
