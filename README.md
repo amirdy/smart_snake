@@ -31,6 +31,6 @@
 ###### &nbsp; **(Batch_size, 8)**
 
 #### Layers  : 
-###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** 
+###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(512)** &rarr; **ReLU** &rarr; **FC(4)** 
 
  
