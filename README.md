@@ -1,5 +1,11 @@
 # Smart_Snake
 
+# Algorithm
+
+
+|<img src="README_Files/Algorithm1.png"  height="400" width="500" > | 
+|:--:| 
+| *DQN Pseudo Code (https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)* |
 
 # State
 ### s<sub>t</sub> : 
