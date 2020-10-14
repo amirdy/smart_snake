@@ -9,6 +9,15 @@
 
 ###### Q = Q<sub>&theta;</sub> = Action-Value Function = Policy network
 ###### Q<sup>^</sup> = Q<sub>&theta;<sup>-</sup></sub> = Target Function = Target network
+### Note:
+
+#### The implementation has some differences with the above algorithm:
+
+1. ##### The training (calculating loss and updating the weights) doesn't apply on the first 2000 steps.
+   - ###### Because there is not enough samples in the replay memory.
+
+2. ##### Target Network updates every C episodes (not every C steps).
+
 
 # Hyperparameters
 - #### C: 
