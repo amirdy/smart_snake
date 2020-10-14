@@ -19,15 +19,15 @@
    - ###### 128
 - #### actions : 
    - ###### (Left, Right, Up, Down) ~ (0, 1, 2, 3)
-- #### Rewards<sub>Food</sub>: 
+- #### Rewards : 
    - ###### (Reward<sub>Food</sub> , Reward<sub>Loose</sub> , Reward<sub>Move</sub>) ~ (100, -100, -0.1)
-- #### N (Replay Memory Size): 
+- #### N (Replay Memory Size) : 
    - ###### 50000
-- #### M (Number of Episodes): 
+- #### M (Number of Episodes) : 
    - ###### 30000
-- #### Learning rate: 
+- #### Learning rate : 
    - ###### 0.001
-- #### Optimizer: 
+- #### Optimizer : 
    - ###### RMSprop
 
 # State
