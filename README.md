@@ -2,10 +2,14 @@
 
 # Algorithm
 
-
 |<img src="README_Files/Algorithm1.png"  height="400" width="500" > | 
 |:--:| 
 | *DQN Pseudo Code (https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)* |
+
+
+###### Q = Q<sub>&theta;</sub> = Action-Value Function = Policy network
+###### Q<sup>^</sup> = Q<sub>&theta;<sup>-</sup></sub> = Target Function = Target network
+
 
 # State
 ### s<sub>t</sub> : 
