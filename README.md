@@ -10,6 +10,25 @@
 ###### Q = Q<sub>&theta;</sub> = Action-Value Function = Policy network
 ###### Q<sup>^</sup> = Q<sub>&theta;<sup>-</sup></sub> = Target Function = Target network
 
+# Hyperparameters
+- #### C: 
+   - ###### 10
+- #### &gamma;: 
+   - ###### 0.99
+- #### Batch size : 
+   - ###### 128
+- #### actions : 
+   - ###### (Left, Right, Up, Down) ~ (0, 1, 2, 3)
+- #### Rewards<sub>Food</sub>: 
+   - ###### (Reward<sub>Food</sub> , Reward<sub>Loose</sub> , Reward<sub>Move</sub>) ~ (100, -100, -0.1)
+- #### N (Replay Memory Size): 
+   - ###### 50000
+- #### M (Number of Episodes): 
+   - ###### 30000
+- #### Learning rate: 
+   - ###### 0.001
+- #### Optimizer: 
+   - ###### RMSprop
 
 # State
 ### s<sub>t</sub> : 
@@ -43,7 +62,7 @@
 #### Layers  : 
 ###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(512)** &rarr; **ReLU** &rarr; **FC(4)** 
 
-# Hyperparameters
+
 
 
  
