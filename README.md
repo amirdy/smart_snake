@@ -1,7 +1,7 @@
 # Smart_Snake
 |<img src="./README_Files/sample1.gif"  height="300" width="500" > | 
 |:--:| 
-| <b> score = 25 </b> |
+| <b> score = 43 </b> |
 
 <table>
   <tr>
@@ -10,9 +10,9 @@
     <td> <img src="./README_Files/sample11.gif"  alt="2" width = 300px height = 200px></td>
    </tr> 
    <tr> 
-      <td align="center"><b>score = 25</b></td>
-      <td align="center"><b>score = 25</b></td>
-      <td align="center"><b>score = 25</b></td>
+      <td align="center"><b>score = 43</b></td>
+      <td align="center"><b>score = 43</b></td>
+      <td align="center"><b>score = 43</b></td>
   </tr>
 </table>
 
