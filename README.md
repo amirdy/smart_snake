@@ -7,7 +7,7 @@
   <tr>
     <td> <img src="./README_Files/sample1.gif"  alt="1" width = 300px height = 200px ></td>
     <td> <img src="./README_Files/sample11.gif"  alt="2" width = 300px height = 200px></td>
-    <td> <img src="snake.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="./README_Files/sample11.gif"  alt="2" width = 300px height = 200px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 25</b></td>
