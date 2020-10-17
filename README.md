@@ -1,13 +1,13 @@
 # Smart_Snake
 |<img src="./README_Files/sample1.gif"  height="300" width="500" > | 
 |:--:| 
-| <b> score = 43 </b> |
+| <b> score = 49 </b> |
 
 <table>
   <tr>
-    <td> <img src="./README_Files/sample1.gif"  alt="1" width = 300px height = 200px ></td>
-    <td> <img src="./README_Files/sample11.gif"  alt="2" width = 300px height = 200px></td>
-    <td> <img src="./README_Files/sample11.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="1" width = 300px height = 200px ></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 300px height = 200px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 43</b></td>
