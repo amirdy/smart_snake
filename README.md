@@ -5,9 +5,9 @@
 
 <table>
   <tr>
-    <td> <img src="./README_Files/sample0.gif"  alt="1" width = 300px height = 200px ></td>
-    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 300px height = 200px></td>
-    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="1" width = 330px height = 180px ></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 330px height = 180px></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 330px height = 180px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 43</b></td>
