@@ -1,4 +1,9 @@
 # Smart_Snake
+|<img src="snake.gif"  height="220" width="350" > | 
+|:--:| 
+| Score = 24 |
+
+
 
 # Algorithm
 
