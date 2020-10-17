@@ -1,13 +1,13 @@
 # Smart_Snake
-|<img src="ezgif.com-gif-maker.gif"  height="300" width="500" > | 
+|<img src="snake.gif"  height="300" width="500" > | 
 |:--:| 
 | <b> score = 25 </b> |
 
 <table>
   <tr>
-    <td> <img src="ezgif.com-gif-maker.gif"  alt="1" width = 300px height = 200px ></td>
-    <td> <img src="ezgif.com-gif-maker.gif"  alt="2" width = 300px height = 200px></td>
-    <td> <img src="ezgif.com-gif-maker.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="snake.gif"  alt="1" width = 300px height = 200px ></td>
+    <td> <img src="snake.gif"  alt="2" width = 300px height = 200px></td>
+    <td> <img src="snake.gif"  alt="2" width = 300px height = 200px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 25</b></td>
