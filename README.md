@@ -87,8 +87,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/svg.latex?%5Cfn_cs%20%5Csmall%20%5Ctext%7BAdjoining%5C_body%5C_right%7D%20%3D%5Cbegin%7Bcases%7D%201%2C%20%26%20%5Ctext%7Badjoining%20right%20square%20has%20snake%20body%7D.%5C%5C%200%2C%20%26%20%5Ctext%7Botherwise%7D.%20%5Cend%7Bcases%7D)
 
-###### &phi;(s<sub>t</sub>) for the above example
-![equation](https://latex.codecogs.com/png.latex?%5Cbegin%7Bbmatrix%7D%200%26%202%20%26%202%20%26%201%20%26%200%20%26%200%20%26%201%20%260%20%5C%5C%20%5Cend%7Bbmatrix%7D)
+###### &phi;(s<sub>t</sub>) for the above example:
+&nbsp;&nbsp;&nbsp;![equation](https://latex.codecogs.com/png.latex?%5Csmall%20%5Cbegin%7Bbmatrix%7D%200%26%202%20%26%202%20%26%201%20%26%200%20%26%200%20%26%201%20%260%20%5C%5C%20%5Cend%7Bbmatrix%7D)
 
 # Network
 #### Input Data :
