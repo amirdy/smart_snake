@@ -1,4 +1,4 @@
- # Smart_Snake
+# Smart_Snake
 |<img src="./README_Files/sample1.gif"  height="300" width="500" > | 
 |:--:| 
 | <b> score = 49 </b> |
