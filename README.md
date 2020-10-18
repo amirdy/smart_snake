@@ -116,7 +116,7 @@ The learning algorithm is DQN.
 
 
 
-# Refrencese
+# References
 
 [1] : [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (illinois)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 
