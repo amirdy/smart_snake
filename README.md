@@ -120,6 +120,8 @@ The learning algorithm is DQN.
 [1] : [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (illinois)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 
 [2] : [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
+
+[3] : [PyTorch - REINFORCEMENT LEARNING (DQN) TUTORIAL](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 # Useful Resources
 [Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. (2013). Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602.](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 
