@@ -1,13 +1,19 @@
 # Smart_Snake
+In this project, Agent(snake) learns how to play the game.
+The learning algorithm is DQN.
+###### Maximum achieved score : 49
+
+
+
 |<img src="./README_Files/sample1.gif"  height="300" width="500" > | 
 |:--:| 
 | <b> score = 49 </b> |
 
 <table>
   <tr>
-    <td> <img src="./README_Files/sample2.gif"  alt="1" width = 330px height = 150px ></td>
-    <td> <img src="./README_Files/sample3.gif"  alt="2" width = 330px height = 150px></td>
-    <td> <img src="./README_Files/sample0.gif"  alt="2" width = 330px height = 150px></td>
+    <td> <img src="./README_Files/sample2.gif"  alt="gif1" width = 330px height = 150px ></td>
+    <td> <img src="./README_Files/sample3.gif"  alt="gif2" width = 330px height = 150px></td>
+    <td> <img src="./README_Files/sample0.gif"  alt="gif3" width = 330px height = 150px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 48</b></td>
@@ -97,7 +103,20 @@
 #### Layers  : 
 ###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(512)** &rarr; **ReLU** &rarr; **FC(4)** 
 
-# Refrences
+# Result 
+
+##### Plots:
+|<img src="README_Files/Train.png"  height="260" width="370" > | <img src="README_Files/Test.png"  height="260" width="370" > | 
+|:--|--:| 
+| <sub><b><div align="center">Train<div></b></sub> |<div align="center"><b><sub>Test</sub></b></div> |
+
+#### Test(1000 Episodes) :
+###### &nbsp;&nbsp;<b>Mean(scores)</b> : 20.257&nbsp;&nbsp;|   <b>Std(scores)</b> : 6.50
+
+
+
+
+# Refrencese
 
 [1] : [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (illinois)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 
