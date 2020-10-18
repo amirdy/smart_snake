@@ -100,10 +100,15 @@
 # Refrences
 
 [1] : [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (illinois)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
+
 [2] : [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
 # Useful Resources
 
+[1] : [AI learns to play SNAKE using Reinforcement Learning (Square Robots)](https://www.youtube.com/watch?v=8cdUree20j4)
 
+[2] : [How to automate Snake using Reinforcement Learning (DeKay Arts)](https://www.youtube.com/watch?v=RMTfNPKnxhk)
+
+[3] : [https://github.com/YuriyGuts/snake-ai-reinforcement/](https://github.com/YuriyGuts/snake-ai-reinforcement/)
 
 
 
