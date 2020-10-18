@@ -59,7 +59,7 @@
 
 # State
 ### s<sub>t</sub> : 
-#### &nbsp; Frame of the game after t transitions.
+&nbsp; Frame of the game after t transitions.
 ##### Example:
 |<img src="README_Files/frame_sample_1.png"  height="300" width="500" > | 
 |:--:| 
