@@ -42,26 +42,12 @@ The learning algorithm is DQN.
 
 2. ##### Target Network updates every C episodes (not every C steps).
 
+# Network
+#### Input Data :
+###### &nbsp; **(Batch_size, 8)**
 
-# Hyperparameters
-- #### C: 
-   - ###### 10
-- #### &gamma;: 
-   - ###### 0.99
-- #### Batch size : 
-   - ###### 128
-- #### actions : 
-   - ###### (Left, Right, Up, Down) ~ (0, 1, 2, 3)
-- #### Rewards : 
-   - ###### (Reward<sub>Food</sub> , Reward<sub>Loose</sub> , Reward<sub>Move</sub>) ~ (100, -100, -0.1)
-- #### N (Replay Memory Size) : 
-   - ###### 50000
-- #### M (Number of Episodes) : 
-   - ###### 30000
-- #### Learning rate : 
-   - ###### 0.001
-- #### Optimizer : 
-   - ###### RMSprop
+#### Layers  : 
+###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(512)** &rarr; **ReLU** &rarr; **FC(4)** 
 
 # State
 ### s<sub>t</sub> : 
@@ -96,13 +82,26 @@ The learning algorithm is DQN.
 ##### &phi;(s<sub>t</sub>) for the above example:
 &nbsp;&nbsp;&nbsp;![equation](https://latex.codecogs.com/png.latex?%5Csmall%20%5Cbegin%7Bbmatrix%7D%200%26%202%20%26%202%20%26%201%20%26%200%20%26%200%20%26%201%20%260%20%5C%5C%20%5Cend%7Bbmatrix%7D)
 
-# Network
-#### Input Data :
-###### &nbsp; **(Batch_size, 8)**
-
-#### Layers  : 
-###### &nbsp; **FC(1024)** &rarr; **ReLU** &rarr; **FC(1024)** &rarr; **ReLU** &rarr; **FC(512)** &rarr; **ReLU** &rarr; **FC(4)** 
-
+# Hyperparameters
+- #### C: 
+   - ###### 10
+- #### &gamma;: 
+   - ###### 0.99
+- #### Batch size : 
+   - ###### 128
+- #### actions : 
+   - ###### (Left, Right, Up, Down) ~ (0, 1, 2, 3)
+- #### Rewards : 
+   - ###### (Reward<sub>Food</sub> , Reward<sub>Loose</sub> , Reward<sub>Move</sub>) ~ (100, -100, -0.1)
+- #### N (Replay Memory Size) : 
+   - ###### 50000
+- #### M (Number of Episodes) : 
+   - ###### 30000
+- #### Learning rate : 
+   - ###### 0.001
+- #### Optimizer : 
+   - ###### RMSprop
+   
 # Result 
 
 ##### Plots:
