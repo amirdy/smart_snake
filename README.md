@@ -104,11 +104,11 @@
 [2] : [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
 # Useful Resources
 
-[1] : [AI learns to play SNAKE using Reinforcement Learning (Square Robots)](https://www.youtube.com/watch?v=8cdUree20j4)
+[AI learns to play SNAKE using Reinforcement Learning (Square Robots)](https://www.youtube.com/watch?v=8cdUree20j4)
 
-[2] : [How to automate Snake using Reinforcement Learning (DeKay Arts)](https://www.youtube.com/watch?v=RMTfNPKnxhk)
+[How to automate Snake using Reinforcement Learning (DeKay Arts)](https://www.youtube.com/watch?v=RMTfNPKnxhk)
 
-[3] : [https://github.com/YuriyGuts/snake-ai-reinforcement/](https://github.com/YuriyGuts/snake-ai-reinforcement/)
+[https://github.com/YuriyGuts/snake-ai-reinforcement/](https://github.com/YuriyGuts/snake-ai-reinforcement/)
 
 
 
