@@ -108,7 +108,7 @@ The learning algorithm is DQN.
 ##### Plots:
 |<img src="README_Files/Train.png"  height="260" width="370" > | <img src="README_Files/Test.png"  height="260" width="370" > | 
 |:--|--:| 
-| <sub><b><div align="center">Train<div></b></sub> |<div align="center"><b><sub>Test</sub></b></div> |
+| <b><sub><div align="center">Train<div></sub></b> |<b><div align="center"><sub>Test</sub></div></b> |
 
 #### Test(1000 Episodes) :
 ###### &nbsp;&nbsp;<b>Mean(scores)</b> : 20.257&nbsp;&nbsp;|   <b>Std(scores)</b> : 6.50
