@@ -60,7 +60,7 @@
 # State
 ### s<sub>t</sub> : 
 #### &nbsp; Frame of the game after t transitions
-|<img src="README_Files/frame.png"  height="300" width="500" > | 
+|<img src="README_Files/frame_sample.png"  height="300" width="500" > | 
 |:--:| 
 | Np array - (12 &times; 12) |
 
