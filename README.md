@@ -60,7 +60,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 
 # State
 ### s<sub>t</sub> : 
-&nbsp; Frame of the game after t transitions which converts to 12&times;12 np array.
+&nbsp; The frame of the game after t transitions which converts to a 12&times;12 np array.
 ##### Example:
 |<img src="README_Files/frame_sample_1.png"  height="300" width="500" > | 
 |:--:| 
