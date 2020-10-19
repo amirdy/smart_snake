@@ -104,7 +104,7 @@ The learning algorithm is **DQN**.
 &nbsp;&nbsp;&nbsp;![equation](./README_Files/features.png)
 
 # Hyperparameters
-  Some initializations are adopted from [this paper](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf) and [this site](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html).
+  Some initializations have been adopted from [this paper](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf) and [this site](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html).
 - #### C: 
    - ###### 10
 - #### &gamma;: 
@@ -126,7 +126,7 @@ The learning algorithm is **DQN**.
 - #### Loss : 
    - ###### MSELoss
 - #### Epsilon Greedy : 
-   - ###### ε decrease linearly from 1(ε<sub>min</sub>) to 0.0001(ε<sub>max</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for rest of the training<sup>2</sup>.
+   - ###### ε decrease linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for rest of the training<sup>2</sup>.
 # Result 
 
 ##### Plots:
