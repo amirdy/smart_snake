@@ -5,9 +5,17 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 
 
 
-|<img src="./README_Files/sample1.gif"  height="300" width="500" > | 
-|:--:| 
-| <b> score = 49 </b> |
+<table>
+  <tr>
+    <td> <img src="./README_Files/sample1.gif"  alt="gif1" width = 500px height = 250px ></td>
+    <td> <img src="./README_Files/sample3.gif"  alt="gif2" width = 500px height = 250px></td>
+   </tr> 
+   <tr> 
+      <td align="center"><b>score = 49</b></td>
+      <td align="center"><b>score = 49</b></td>
+  </tr>
+</table>
+
 
 <table>
   <tr>
