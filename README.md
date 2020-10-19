@@ -3,9 +3,16 @@ In this project, Agent(snake) learns how to play the game<sup>1</sup>.
 The game board is 12&times;12 and the learning algorithm is DQN.
 ###### Average scores : 20
 ###### Best achieved score : 49
+<ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Algorithm](#Algorithm)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[State](#State)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Hyperparameters](#Hyperparametera)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Result](#Result)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Refrences](#Refrences)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Useful Resources](#Useful-Resources)</ins>
 
-
-
+# Preview
 <table>
   <tr>
     <td> <img src="./README_Files/sample1.gif"  alt="gif1" width = 500px height = 250px ></td>
