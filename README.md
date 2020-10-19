@@ -1,9 +1,9 @@
 # Smart_Snake
-In this project, Agent(snake) learns how to play the game<sup>1</sup>.
-The game board is 12&times;12 and the snake can move in the 10&times;10 area.
+In this project, Agent(snake) learns how to play the snake game<sup>1</sup>.
+The game board is 12&times;12. The snake can move in the 10&times;10 area.
 
 The learning algorithm is **DQN**.
-###### Average scores : 20
+###### Average Test scores : 20
 ###### Best achieved score : 49
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Algorithm](#Algorithm)</ins>&nbsp;&nbsp;&nbsp;
@@ -55,11 +55,12 @@ The learning algorithm is **DQN**.
 
 #### The implementation has some differences with the above algorithm:
 
-1. ##### The training (calculating loss and updating the weights) doesn't apply on the first 2000 steps<sup>3</sup>.
-   - ###### Because there is not enough samples in the replay memory<sup>3</sup>.
+1. ##### The training (calculating loss and updating the weights) doesn't apply to the first 2000 steps<sup>2</sup>.
+   - ###### Because there are not enough samples in the replay memory<sup>2</sup>.
 
-2. ##### Target Network updates every C episodes (not every C steps)<sup>4</sup>.
+2. ##### Target Network updates every C episodes (not every C steps)<sup>3</sup>.
 
+3. ##### I suppose that s<sub>t</sub> = x<sub>t</sub>.
 # Network
 #### Input Data :
 ###### &nbsp; **(Batch_size, 8)**
@@ -80,8 +81,8 @@ The learning algorithm is **DQN**.
 | (12 &times; 12) Np array |
 
 ### &phi;(s<sub>t</sub>) :
-&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)<sup>2</sup>,
-8 features extracted from the frame as below<sup>2</sup>:
+&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)<sup>4</sup>,
+8 features extracted from the frame as below<sup>4</sup>:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature1.svg)
