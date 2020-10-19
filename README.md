@@ -71,8 +71,8 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 | (12 &times; 12) Np array |
 
 ### &phi;(s<sub>t</sub>) :
-&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html) course<sup>2</sup>,
-8 features extracted from the frame as below:
+&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)<sup>2</sup>,
+8 features extracted from the frame as below<sup>2</sup>:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature1.svg)
