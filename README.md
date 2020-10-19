@@ -60,7 +60,7 @@ The learning algorithm is **DQN**.
 
 2. ##### Target Network updates every C episodes (not every C steps)<sup>3</sup>.
 
-3. ##### I suppose that s<sub>t</sub> = x<sub>t</sub>.
+3. ##### I supposed that s<sub>t</sub> = x<sub>t</sub>.
 # Network
 #### Input Data :
 ###### &nbsp; **(Batch_size, 8)**
