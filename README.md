@@ -45,10 +45,10 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 
 #### The implementation has some differences with the above algorithm:
 
-1. ##### The training (calculating loss and updating the weights) doesn't apply on the first 2000 steps.
-   - ###### Because there is not enough samples in the replay memory.
+1. ##### The training (calculating loss and updating the weights) doesn't apply on the first 2000 steps<sup>3</sup>.
+   - ###### Because there is not enough samples in the replay memory<sup>3</sup>.
 
-2. ##### Target Network updates every C episodes (not every C steps).
+2. ##### Target Network updates every C episodes (not every C steps)<sup>4</sup>.
 
 # Network
 #### Input Data :
@@ -118,7 +118,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 | <sub><div align="center">Train<div></sub> |<b><div align="center"><sub>Test</sub></div></b> |
 
 #### Notices :
-###### &nbsp;&nbsp; Training finished in ~ 209 Minutes on Tesla V100-SXM2-16GB(using google colab pro).
+###### &nbsp;&nbsp; Training finished in ~ 209 Minutes on Tesla V100-SXM2-16GB (using Google Colab Pro).
 ###### &nbsp;&nbsp; Test Result: &nbsp;&nbsp;<b>Mean(scores)</b> : 20.257&nbsp;&nbsp;|   <b>Std(scores)</b> : 6.50
 
 
