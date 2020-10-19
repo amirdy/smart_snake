@@ -94,6 +94,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 &nbsp;&nbsp;&nbsp;![equation](./README_Files/features.png)
 
 # Hyperparameters
+  Some initializations are adopted from [this paper](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)<sup>3</sup>.
 - #### C: 
    - ###### 10
 - #### &gamma;: 
@@ -112,7 +113,8 @@ The game board is 12&times;12 and the learning algorithm is DQN.
    - ###### 0.001
 - #### Optimizer : 
    - ###### RMSprop
-   
+- #### Epsilon greedy : 
+   - ###### ε decrease linearly from 1(ε<sub>min</sub>) to some 0.001(ε<sub>max</sub>) with step 0.00001(∆ε). In other word, after 1000000 step, the ε wil be 0.001 for end of the training.
 # Result 
 
 ##### Plots:
