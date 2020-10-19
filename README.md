@@ -104,7 +104,7 @@ The learning algorithm is **DQN**.
 &nbsp;&nbsp;&nbsp;![equation](./README_Files/features.png)
 
 # Hyperparameters
-  Some initializations are adopted from [this paper](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)<sup>3</sup>.
+  Some initializations are adopted from [this paper](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)<sup>2</sup> and [this site](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)<sup>3</sup>.
 - #### C: 
    - ###### 10
 - #### &gamma;: 
