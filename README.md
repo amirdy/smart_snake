@@ -114,7 +114,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 - #### Optimizer : 
    - ###### RMSprop
 - #### Epsilon greedy : 
-   - ###### ε decrease linearly from 1(ε<sub>min</sub>) to 0.0001(ε<sub>max</sub>) with step 0.0001(∆ε). In other word, after 100000 step, the ε wil be 0.001 for end of the training<sup>3</sup>.
+   - ###### ε decrease linearly from 1(ε<sub>min</sub>) to 0.0001(ε<sub>max</sub>) with step 0.00001(∆ε). In other word, after 100000 step, the ε wil be 0.0001 for the end of the training<sup>3</sup>.
 # Result 
 
 ##### Plots:
