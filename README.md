@@ -125,9 +125,9 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 
 
 # References
-[1]  [Snake (video game genre)](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
+[1]  [Wikipedia - Snake (video game genre)](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
 
-[2]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning ( UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
+[2]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 
 [3]  [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
 
