@@ -70,7 +70,7 @@ The learning algorithm is **DQN**.
 
 # State
 ### s<sub>t</sub> : 
-&nbsp; The frame of the game after t transitions which converts to a 12&times;12 np array.
+&nbsp; The frame of the game after t transitions which converted to a 12&times;12 np array.
 ##### Example:
 |<img src="README_Files/frame_sample_1.png"  height="300" width="500" > | 
 |:--:| 
@@ -80,8 +80,8 @@ The learning algorithm is **DQN**.
 |:--:| 
 | (12 &times; 12) Np array |
 
-### &phi;(s<sub>t</sub>) :
-&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)<sup>4</sup>,
+### &Phi;(s<sub>t</sub>) :
+&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html),
 8 features extracted from the frame as below<sup>4</sup>:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]
 
