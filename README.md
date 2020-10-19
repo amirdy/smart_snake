@@ -10,7 +10,7 @@ The learning algorithm is **DQN**.
 <ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[State](#State)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Hyperparameters](#Hyperparameters)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Result](#Result)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Results](#Results)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[References](#References)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Useful Resources](#Useful-Resources)</ins>
 
@@ -127,7 +127,7 @@ The learning algorithm is **DQN**.
    - ###### MSELoss
 - #### Epsilon Greedy : 
    - ###### ε decrease linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for rest of the training<sup>2</sup>.
-# Result 
+# Results
 
 ##### Plots:
 |<img src="README_Files/Train.png"  height="260" width="370" > | <img src="README_Files/Test.png"  height="260" width="370" > | 
