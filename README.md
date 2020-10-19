@@ -118,7 +118,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 ##### Plots:
 |<img src="README_Files/Train.png"  height="260" width="370" > | <img src="README_Files/Test.png"  height="260" width="370" > | 
 |:--|--:| 
-| <sub><div align="center">Train<div></sub> |<b><div align="center"><sub>Test</sub></div></b> |
+| <b><div align="center"><sub>Train</sub><div></b> |<b><div align="center"><sub>Test</sub></div></b> |
 
 #### Notices :
 ###### &nbsp;&nbsp; Training finished in ~ 209 Minutes on Tesla V100-SXM2-16GB (using Google Colab Pro).
