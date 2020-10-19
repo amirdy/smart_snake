@@ -9,23 +9,23 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 <table>
   <tr>
     <td> <img src="./README_Files/sample1.gif"  alt="gif1" width = 500px height = 250px ></td>
-    <td> <img src="./README_Files/sample3.gif"  alt="gif2" width = 500px height = 250px></td>
+    <td> <img src="./README_Files/sample2.gif"  alt="gif2" width = 500px height = 250px></td>
    </tr> 
    <tr> 
       <td align="center"><b>score = 49</b></td>
-      <td align="center"><b>score = 49</b></td>
+      <td align="center"><b>score = 48</b></td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td> <img src="./README_Files/sample2.gif"  alt="gif1" width = 330px height = 150px ></td>
+    <td> <img src="./README_Files/sample4.gif"  alt="gif1" width = 330px height = 150px ></td>
     <td> <img src="./README_Files/sample3.gif"  alt="gif2" width = 330px height = 150px></td>
     <td> <img src="./README_Files/sample0.gif"  alt="gif3" width = 330px height = 150px></td>
    </tr> 
    <tr> 
-      <td align="center"><b>score = 48</b></td>
+      <td align="center"><b>score = 46</b></td>
       <td align="center"><b>score = 46</b></td>
       <td align="center"><b>score = 43</b></td>
   </tr>
