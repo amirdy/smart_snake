@@ -1,6 +1,7 @@
 # Smart_Snake
 In this project, Agent(snake) learns how to play the game<sup>1</sup>.
 The game board is 12&times;12 and the learning algorithm is DQN.
+###### Average scores : 20
 ###### Best achieved score : 49
 
 
@@ -87,7 +88,7 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature7.svg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature8.svg)
-##### &phi;(s<sub>t</sub>) for the above example:
+#### &phi;(s<sub>t</sub>) for the previous example:
 &nbsp;&nbsp;&nbsp;![equation](./README_Files/features.png)
 
 # Hyperparameters
