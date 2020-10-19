@@ -1,15 +1,17 @@
 # Smart_Snake
 In this project, Agent(snake) learns how to play the game<sup>1</sup>.
-The game board is 12&times;12 and the learning algorithm is DQN.
+The game board is 12&times;12 and the snake can move in the 10&times;10 area.
+
+The learning algorithm is **DQN**.
 ###### Average scores : 20
 ###### Best achieved score : 49
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Algorithm](#Algorithm)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[State](#State)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Hyperparameters](#Hyperparametera)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Hyperparameters](#Hyperparameters)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Result](#Result)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Refrences](#Refrences)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[References](#References)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Useful Resources](#Useful-Resources)</ins>
 
 # Preview
