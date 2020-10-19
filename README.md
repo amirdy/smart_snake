@@ -1,6 +1,6 @@
 # Smart_Snake
 In this project, Agent(snake) learns how to play the game.
-The learning algorithm is DQN.
+The game board is 12&times; 12 and the learning algorithm is DQN.
 ###### Maximum achieved score : 49
 
 
