@@ -100,7 +100,7 @@ The learning algorithm is **DQN**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature7.svg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature8.svg)
-#### &phi;(s<sub>t</sub>) for the previous example:
+#### &Phi;(s<sub>t</sub>) for the previous example:
 &nbsp;&nbsp;&nbsp;![equation](./README_Files/features.png)
 
 # Hyperparameters
