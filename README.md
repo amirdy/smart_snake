@@ -1,7 +1,7 @@
 # Smart_Snake
-In this project, Agent(snake) learns how to play the game.
+In this project, Agent(snake) learns how to play the game<sup>1</sup>.
 The game board is 12&times;12 and the learning algorithm is DQN.
-###### Maximum achieved score : 49
+###### Best achieved score : 49
 
 
 
@@ -68,7 +68,8 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 ![equation](README_Files/matrix.png)
 
 ### &phi;(s<sub>t</sub>) :
-&nbsp; 8 features extracted from the frame as below:
+&nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html) course<sup>2</sup>,
+8 features extracted from the frame as below:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature1.svg)
@@ -124,12 +125,13 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 
 
 # References
+[1]  [Snake (video game genre)](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
 
-[1]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (illinois)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
+[2]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning ( UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 
-[2]  [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
+[3]  [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
 
-[3]  [PyTorch - REINFORCEMENT LEARNING (DQN) TUTORIAL](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+[4]  [PyTorch - REINFORCEMENT LEARNING (DQN) TUTORIAL](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 # Useful Resources
 [Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. (2013). Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602.](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 
