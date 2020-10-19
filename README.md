@@ -142,11 +142,11 @@ The learning algorithm is **DQN**.
 # References
 [1]  [Wikipedia - Snake (video game genre)](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
 
-[2]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
+[2]  [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
 
-[3]  [https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1342302/FULLTEXT01.pdf)
+[3]  [PyTorch - REINFORCEMENT LEARNING (DQN) TUTORIAL](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 
-[4]  [PyTorch - REINFORCEMENT LEARNING (DQN) TUTORIAL](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+[4]  [CS440/ECE448 Spring 2019 Assignment 4: Reinforcement Learning and Deep Learning (UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN)](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html)
 # Useful Resources
 [Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. (2013). Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602.](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 
