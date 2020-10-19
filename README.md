@@ -64,9 +64,11 @@ The game board is 12&times;12 and the learning algorithm is DQN.
 ##### Example:
 |<img src="README_Files/frame_sample_1.png"  height="300" width="500" > | 
 |:--:| 
-| (12 &times; 12) Np array |
+| Frame |
 
-![equation](README_Files/matrix.png)
+|<img src="README_Files/matrix.png"  height="300" width="500" > | 
+|:--:| 
+| (12 &times; 12) Np array |
 
 ### &phi;(s<sub>t</sub>) :
 &nbsp; Based on the <b>Assignment4</b> of the [Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html) course<sup>2</sup>,
