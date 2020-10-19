@@ -1,6 +1,6 @@
 # Smart_Snake
 In this project, Agent(snake) learns how to play the game.
-The game board is 12&times; 12 and the learning algorithm is DQN.
+The game board is 12&times;12 and the learning algorithm is DQN.
 ###### Maximum achieved score : 49
 
 
@@ -108,8 +108,9 @@ The game board is 12&times; 12 and the learning algorithm is DQN.
 |:--|--:| 
 | <sub><div align="center">Train<div></sub> |<b><div align="center"><sub>Test</sub></div></b> |
 
-#### Test(1000 Episodes) :
-###### &nbsp;&nbsp;<b>Mean(scores)</b> : 20.257&nbsp;&nbsp;|   <b>Std(scores)</b> : 6.50
+#### Notices :
+###### &nbsp;&nbsp; Training finished in ~ 209 Minutes on Tesla V100-SXM2-16GB(using google colab pro).
+###### &nbsp;&nbsp; Test Result: &nbsp;&nbsp;<b>Mean(scores)</b> : 20.257&nbsp;&nbsp;|   <b>Std(scores)</b> : 6.50
 
 
 
