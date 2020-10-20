@@ -81,7 +81,7 @@ The learning algorithm is **DQN**.
 | (12 &times; 12) Np array |
 
 ### &Phi;(s<sub>t</sub>) :
-&nbsp; Based on [the <b>Assignment4</b> of the Artificial Intelligence (CS 440/ECE 448) course](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html),
+&nbsp; Based on [the <b>Assignment4</b> of the Artificial Intelligence (CS 440/ECE 448) course from University of Illinois at Urbana–Champaign](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html),
 8 features extracted from the frame as below:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]<sup>4</sup>
 
