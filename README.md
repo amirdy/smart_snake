@@ -126,7 +126,7 @@ The learning algorithm is **DQN**.
 - #### Loss : 
    - ###### MSELoss
 - #### Epsilon Greedy : 
-   - ###### ε decrease linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for rest of the training<sup>2</sup>.
+   - ###### ε decrease linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for the rest of the training<sup>2</sup>.
 # Results
 
 ##### Plots:
