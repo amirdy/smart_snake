@@ -1,6 +1,7 @@
 # Smart_Snake
 In this project, Agent(snake) learns how to play the snake game<sup>1</sup>.
-The game board is 12&times;12. The snake can move in the 10&times;10 area and eat the food.
+The game board is 12&times;12. The snake moveس in the 10&times;10 area and eat the food. Eating the food increases the length of the snake.
+The snake must learn how to eat the food without running into the screen border or itself.
 
 The learning algorithm is **DQN**.
 ###### Average Test scores : 20
@@ -58,7 +59,7 @@ The learning algorithm is **DQN**.
 1. ##### The training (calculating loss and updating the weights) doesn't apply to the first 2000 steps<sup>2</sup>.
    - ###### Because there are not enough samples in the replay memory<sup>2</sup>.
 
-2. ##### Target Network updates every C episodes (not every C steps)<sup>3</sup>.
+2. ##### Target Network is updated every C episode (not every C step)<sup>3</sup>.
 
 3. ##### I supposed that s<sub>t</sub> = x<sub>t</sub>.
 # Network
@@ -70,7 +71,7 @@ The learning algorithm is **DQN**.
 
 # State
 ### s<sub>t</sub> : 
-&nbsp; The frame of the game after t transitions which converted to a 12&times;12 np array.
+&nbsp; The frame of the game after t transitions. It is converted to a 12&times;12 np array.
 ##### Example:
 |<img src="README_Files/frame_sample_1.png"  height="300" width="500" > | 
 |:--:| 
@@ -82,7 +83,7 @@ The learning algorithm is **DQN**.
 
 ### &Phi;(s<sub>t</sub>) :
 &nbsp; Based on [the <b>Assignment4</b> of the <b>Artificial Intelligence (CS 440/ECE 448)</b> course from <b>University of Illinois at Urbana–Champaign</b>](https://courses.engr.illinois.edu/cs440/sp2019/mp4/index.html),
-8 features extracted from the frame as below:
+8 features were extracted from the frame as below:
 ##### &nbsp; [Adjoining_wall_x, Adjoining_wall_y, food_dir_x, food_dir_y, Adjoining_body_top, Adjoining_body_bottom, Adjoining_body_left, Adjoining_body_right]<sup>4</sup>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](./README_Files/feature1.svg)
@@ -126,7 +127,7 @@ The learning algorithm is **DQN**.
 - #### Loss : 
    - ###### MSELoss
 - #### Epsilon Greedy : 
-   - ###### ε decrease linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps, the ε will be 0.0001 for the rest of the training<sup>2</sup>.
+   - ###### ε decreases linearly from 1(ε<sub>max</sub>) to 0.0001(ε<sub>min</sub>) with step 0.00001(∆ε). In other words, after 100000 steps the ε will be 0.0001 for the rest of the training<sup>2</sup>.
 # Results
 
 ##### Plots:
