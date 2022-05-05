@@ -1,5 +1,5 @@
 # Smart_Snake
-In this project, Agent(snake) learns how to play the snake game<sup>1</sup>.
+This is a <ins>Reinforcement Learning</ins> project. In this project, Agent(snake) learns how to play the snake game<sup>1</sup>.
 The game board is 12&times;12. The snake moves in the 10&times;10 area and eats the food. Eating the food increases the length of the snake.
 The snake must learn how to eat the food without running into the screen border or itself.
 
